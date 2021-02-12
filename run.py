@@ -6,6 +6,7 @@ from aiohttp.web import run_app
 from sqli.app import init as init_app
 
 log = logging.getLogger(__name__)
+log = logging.getLogger(__name__)
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
